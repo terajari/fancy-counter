@@ -1,6 +1,14 @@
+import Card from "./Card"
+import CountButtons from "./CountButtons"
+
 
 function App() {
-  return <p>Hello World</p>
+  return (
+    <div>
+      <Card />
+      <CountButtons />
+    </div>
+    
+  )
 }
-
 export default App
