@@ -1,8 +1,9 @@
 
-const Count = () => {
+// eslint-disable-next-line react/prop-types
+const Count = ({count}) => {
   return (
-    <div>
-        <p>0</p>
+    <div className="count">
+        <p>{count}</p>
     </div>
   )
 }
